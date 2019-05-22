@@ -1,4 +1,4 @@
-package com.codinginflow.tictactoe;
+package com.deeps.tictactoe;
  
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
  
+     //To check the win is across any one of the row
         for (int i = 0; i < 3; i++) {
             if (field[i][0].equals(field[i][1])
                     && field[i][0].equals(field[i][2])
@@ -92,6 +93,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
  
+     //To check the win is across any one of the column
+
         for (int i = 0; i < 3; i++) {
             if (field[0][i].equals(field[1][i])
                     && field[0][i].equals(field[2][i])
@@ -100,12 +103,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
  
+     //To check the win is across diagonal-1(left to right)
+
         if (field[0][0].equals(field[1][1])
                 && field[0][0].equals(field[2][2])
                 && !field[0][0].equals("")) {
             return true;
         }
  
+    //To check the win is across diagonal-2(right to left)
+
         if (field[0][2].equals(field[1][1])
                 && field[0][2].equals(field[2][0])
                 && !field[0][2].equals("")) {
@@ -149,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         roundCount = 0;
         player1Turn = true;
     }
- 
+ //To reset whole game
     private void resetGame() {
         player1Points = 0;
         player2Points = 0;
