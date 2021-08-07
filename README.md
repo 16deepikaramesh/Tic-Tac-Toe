@@ -1,14 +1,17 @@
-# Tic-Tac-Toe
-Tic-tac-toe is a two player game that takes turn marking spaces on a 3 by 3 grid, and the objective of the game is to place three connecting marks in a horizontal, vertical, or diagonal row. Tic-tac-toe is also called as  X and O game.
+# TicTacToe
+A simple two player game, popularly known as Tic-Tac-Toe built using Android Studio.
+### [Download APK](https://drive.google.com/file/d/1jeh9TVnK7T9MdrgpejqLPZfkzDIY8sYs/view?usp=sharing)
+
+### Play instructions 
+1. Player 1 starts the game with 'X' as his reference followed by Player 2 with 'O'.
+2. With the availability of 9 slots, player 1 starts by choosing any one of the slots and player 2 follows by choosing any one of the remaining slots.
+3. The game proceeds until either 'X' or 'O' occupies an entire row, or an entire column or any one of the diaganol.
+4. The first to occupy wins the game and if not the game would tie.
 
 
+### Screenshots
+![Homepage](/Screenshots/ss1.jpg?raw=true "Home page")
 
+![Homepage](/Screenshots/ss2.jpg?raw=true "Home page")
 
-
-
-
-
-
-
-
-<a href="https://imgflip.com/gif/31mlvy"><img src="https://i.imgflip.com/31mlvy.gif" title="made at imgflip.com"/></a>
+![Homepage](/Screenshots/ss7.jpg?raw=true "Home page")
