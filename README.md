@@ -5,7 +5,7 @@ A simple two player game, popularly known as Tic-Tac-Toe built using Android Stu
 ### Play instructions 
 1. Player 1 starts the game with 'X' as his reference followed by Player 2 with 'O'.
 2. With the availability of 9 slots, player 1 starts by choosing any one of the slots and player 2 follows by choosing any one of the remaining slots.
-3. The game proceeds until either 'X' or 'O' occupies an entire row, or an entire column or any one of the diaganol.
+3. The game proceeds until either 'X' or 'O' occupies an entire row, or an entire column or any one of the diagonal.
 4. The first to occupy wins the game and if not the game would tie.
 
 
